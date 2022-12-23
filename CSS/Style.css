@@ -1,0 +1,77 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+	color: white;
+}
+/* ----------------Container CSS------------- */
+#container {
+	border: 1px solid black;
+	position: relative;
+}
+
+/* --------------------Ball CSS ------------------- */
+#ball {
+	width: 3vh;
+	height: 3vh;
+	border-radius: 50%;
+
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	background-color: rgb(159, 159, 159);
+	/* border: 2px solid white; */
+}
+
+/* -----------------------Bar 1 CSS -------------------- */
+#bar-1 {
+	height: 20px;
+	width: 150px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	top: 1%;
+	left: 50%;
+	background-color: rgb(51, 207, 12);
+	font-weight: 600;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+/* ------------------------Bar 2 CSS --------------------- */
+#bar-2 {
+	height: 20px;
+	width: 150px;
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	bottom: 1%;
+	left: 50%;
+	background-color: rgb(255, 58, 32);
+	font-weight: 600;
+	font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+		"Lucida Sans", Arial, sans-serif;
+}
+
+/* ---------Media Queries for smaller Devices----------------- */
+
+@media only screen and (max-width: 800px) {
+	#bar-1 {
+		height: 17px;
+		width: 100px;
+		font-weight: 500;
+	}
+
+	#bar-2 {
+		height: 17px;
+		width: 100px;
+		font-weight: 500;
+	}
+}
