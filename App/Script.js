@@ -8,8 +8,8 @@ const thisBar2 = "Bar-2";
 const storeName = "abc";
 const storeScore = 123;
 
-let speed = 10;
-let levelScore = 200;
+let speed = 9;
+let levelScore = 100;
 let whichBar;
 let moveX = 2;
 let moveY = 2;
